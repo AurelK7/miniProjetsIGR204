@@ -7,5 +7,9 @@ This visualization intends to answer to following questions:
 * Are there trends in time?
 
 Our proposal is to show evolution of 
+
 ## First chart `-> 1ere proposition`
+
+![Alt text](images/All_year.png?raw=true "Title")
+
 ## Second chart
