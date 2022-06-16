@@ -6,6 +6,7 @@
 
 In the dashboard, the worksheet on the left shows the most popular name of each department during the chosen period, which is configurable by the "Year" filter on top of it, as shown below. \
 ![Alt text](Visualization2_1.JPG?raw=true "Title")
+
 Once we click on a certain department, the birth distribution over the whole country of the corresponding name is shown in the worksheet on the right, as shown below.
 ![Alt text](Visualization2_2.JPG?raw=true "Title")
 
