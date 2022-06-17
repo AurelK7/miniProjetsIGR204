@@ -134,7 +134,7 @@ d3.dsv(';',"data/dpt2020.csv", rowConverter).then((rows) => {
                 .range([16,10]);
             
             let color_boys = d3.scaleOrdinal().domain(boysNames).range(d3.schemeSpectral[10]);
-            let color_girls = d3.scaleOrdinal().domain(girlsNames).range(d3.schemeSpectral[10]);
+            let color_girls = d3.scaleOrdinal().domain(girlsNames).range(d3.schemeSet3);
 
             //////
 
