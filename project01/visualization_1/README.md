@@ -6,7 +6,7 @@ This visualization intends to answer to following questions:
 * Are there some that have were suddenly or briefly popular or unpopular? 
 * Are there trends in time?
 
-Our idea is to show the evolution of the percentage of annual births for each name during time. To be more specific, this is not strictly a percentage but rather the ratio of annual births of each name in all regions divided by total annual births during the year).
+Our idea is to show the evolution of the percentage of annual births for each name during time. To be more specific, this is not strictly a percentage but rather the ratio of annual births of each name in all regions divided by total annual births during the year.
 We also added an additional barplot of annual births per name.
 The advantage of this percentage is to scale values during time, so we could have
 better comparison of births over time.
