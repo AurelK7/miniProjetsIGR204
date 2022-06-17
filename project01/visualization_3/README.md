@@ -14,5 +14,10 @@ In order to get an idea of the evolution curve of a name, just pass the mouse ov
 
 ![alt-text-1](images/image2.png)
 
+The visualization displays by default all the years present in the dataset, i.e. from 1900 to 2020. In order to target a specific period, it is possible to choose the start date through the input box located at the top left :
 
+![alt-text-1](images/image3.png)
 
+Thus, after filtering, the visualization obtained is as follows:
+
+![alt-text-1](images/image4.png)
