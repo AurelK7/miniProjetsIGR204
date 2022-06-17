@@ -94,15 +94,13 @@ d3.dsv(';',"data/dpt2020.csv", rowConverter).then((rows) => {
             }
 
             filtered_boys = boySet
-                .filter(d => d.year > 1900)
                 .filter(d => d.name.toUpperCase())
-                .filter(d => d.year < 2018)
+                .filter(d => d.year < 2022)
             filtered_boys.sort((a,b) => a.year - b.year)
            
 
             filtered_girls = girlSet
-                .filter(d => d.year > 1900)
-                .filter(d => d.year < 2018)
+                .filter(d => d.year < 2022)
                 .filter(d => d.name.toUpperCase())
             filtered_girls.sort((a,b) => a.year - b.year)
 
@@ -227,7 +225,7 @@ d3.dsv(';',"data/dpt2020.csv", rowConverter).then((rows) => {
                     .range([16,10]);
 
                 let color_boys = d3.scaleOrdinal().domain(boysNames).range(d3.schemeSpectral[10]);
-                let color_girls = d3.scaleOrdinal().domain(girlsNames).range(d3.schemeSpectral[10]);
+                let color_girls = d3.scaleOrdinal().domain(girlsNames).range(d3.schemeSet3);
 
                 linksBoys_array = [];
                 for (let i = 0; i < filtered_boys.length; i++) {
