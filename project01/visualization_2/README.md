@@ -14,5 +14,6 @@ Once we click on a certain department it creates a selection to show the birth d
 
 As we can see in the chart, different departments have different top names, which implies regional effect. Some names are more popular in some regions, but not across the whole country.
 
+## Limitations
 One limitation of this visualization is that the evolution over time can only be seen using filters, which requires users' action. It would have been better to use animations or small multiples to better show the evolution. For example if a department has the same top name several years in a row it won't be very easy to identify it with our current implementation.
 
